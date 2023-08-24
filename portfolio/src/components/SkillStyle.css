@@ -1,0 +1,96 @@
+.skill_container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 7rem 0;
+    /* z-index: -1; */
+  
+}
+.skill_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.text h1{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin: 0rem 0 3rem 0;
+
+}
+.text span{
+    color: #3e64ff;
+    font-family: bold;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.image_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #f6f6f9ec;
+    height: auto;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding: 8rem 0;
+    margin:1rem 3rem;
+    border-radius: 7px;
+}
+.image-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 5rem; */
+    height: auto;
+    width: 83%;
+    text-align: center;
+    gap: 26px;
+}
+.image-row img{
+    width: 50%;
+}
+.images-row_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 5rem; */
+    height: auto;
+    width: 83%;
+    text-align: center;
+    gap: 26px;
+    margin-top: 1rem;
+}
+.images-row_2 img{
+    width: 60%;
+}
+
+@media(max-width:550px){
+    .image_container{
+        margin: 2rem 0;
+    }
+    .image-row{
+        flex-direction: column;
+        position: relative;
+        gap: 10px;
+    }
+    .image-row img{
+        width:100%;
+    }
+    .images-row_2{
+        flex-direction: column;
+        margin-top: 2rem;
+        gap: 10px;
+        
+    }
+    .images-row_2 img{
+        width: 100%;
+    }
+    .text h1{
+        font-size: 3rem;
+        text-transform: uppercase;
+        margin: 0rem 0 3rem 0;
+    
+    }
+}
