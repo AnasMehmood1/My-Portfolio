@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import"./Navbarstyle.css"
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import { FaBars ,FaTimes} from "react-icons/fa"
 const Navbar = () => {
 
@@ -26,16 +26,16 @@ window.addEventListener("scroll" ,changecolor)
             <img src="/logo.png" alt="" className='logo' />
         <ul className={click ?("nav-menu active"):("nav-menu")}>
             <li>
-            <a href="#Home">Home</a>
+         <Link to="Home" spy={true} smooth={true} offset={0} duration={500}>Home</Link>
             </li>
             <li>
-            <a href="#Skill">Skills</a>
+            <Link to="Skill" spy={true} smooth={true} offset={50} duration={500}>Skills</Link>
             </li>
             <li>
-            <a href="#Projects">Projects</a>
+            <Link to="Projects" spy={true} smooth={true} offset={-65} duration={500}>projects</Link>
             </li>
             <li>
-            <a href="#Home">Contact</a>
+            <Link to="contact" spy={true} smooth={true} offset={-65} duration={500}>contact</Link>
             </li>
            
         </ul>

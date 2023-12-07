@@ -1,11 +1,12 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import "./Cardstyle.css"
 const ProjectCard = ({cardData}) => {
 
   return (
     <>
 
-    
+    <div className="main">
       <div className="project_container">
 
         {cardData.map((curItem)=>{
@@ -23,6 +24,7 @@ const ProjectCard = ({cardData}) => {
         })}
        
        
+      </div>
       </div>
     </>
   )

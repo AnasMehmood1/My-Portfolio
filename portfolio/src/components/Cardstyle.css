@@ -3,14 +3,14 @@
     grid-template-columns: repeat(2, minmax(321px,280px));
     justify-content:center;
     align-items: center;
-    gap: 6rem;
+    gap: 5rem;
   padding-top: 2rem;
   padding-bottom: 7rem;
   width: 100%;
 }
 .card_container{
     display: grid;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
     align-items: center;
     /* background-color: black; */
     
@@ -25,7 +25,7 @@
     width: 350px;
     height: 200px;
     object-fit: cover;
- background-position-y: bottom;
+ /* background-position-y: bottom; */
  
 }
 .cardtitle{
@@ -107,6 +107,10 @@ text-align: center;
       margin: 0 1rem 0 0rem;
        
     }
+    .main{
+        padding-left: 2rem;
+        width: 100%;
+    }
     .btn{
         border: none;
         outline: none;
@@ -120,7 +124,10 @@ text-align: center;
     .project_container{
         display: grid;
         grid-template-columns: repeat(1, minmax(150px,500px));
-        justify-content: space-between;
+        /* justify-content: space-between; */
+        justify-content: center;
+    
+        width: 100%;
         align-items: center;
         gap: 15px;
    
@@ -135,5 +142,11 @@ text-align: center;
     }
     .buttonitem{
         flex-wrap: wrap;
+    }
+    .head h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        letter-spacing: 5px;
+        text-transform: uppercase;
     }
 }

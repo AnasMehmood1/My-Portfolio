@@ -11,7 +11,7 @@ const HeroImg = () => {
             <p>HEY ! I AM</p>
             <h1>Anas <br /> Mehmood</h1>
             <div className="developer">
-              <h2>I'm a <span>Web Developer</span></h2>
+              <h2>I'm a <span>Frontend Developer</span></h2>
             </div>
         </div>
       </div>

@@ -21,8 +21,8 @@
 
 }
 .hero .contant h1{
-    font-size: 5rem;
-    line-height: 65px;
+    font-size: 4.5rem;
+    line-height: 75px;
     text-transform: uppercase;
 }
 .hero .contant p{
@@ -80,14 +80,16 @@
     .developer{
         white-space: nowrap;
         margin-top: 12px;
+        margin-left: 3rem;
         font-size: 1.6rem;
         font-family: 'Outfit', sans-serif;
     }
+
     .mask{
         opacity: .1;
-        width: 50%;
+        width: 60%;
         background: #3e64ff;
-        height: 65vh;
+        height: 80vh;
     
     }
     .hero .contant{
@@ -101,10 +103,17 @@
     .contant {
         position: absolute;
         transform: translate(-50%, -50%);
-        top: 45%;
+        top: 50%;
         left: 50%;
         text-align: center;
         /* z-index: 5 !important; Ensure this style is applied */
+        margin-top: 3rem;
+    }
+    .contant p{
+        margin-left: 3rem;
+    }
+    .contant h1{
+        margin-left: 3rem;
     }
     .hero{
         background-color: rgb(255, 255, 255);
@@ -113,3 +122,25 @@
     }
     
 }
+
+@media(max-width:300px){
+    .hero .contant .developer h2{
+        display: inline-block;
+        /* overflow: hidden; */
+        flex-wrap: wrap;
+ 
+        margin-top: 12px;
+        font-size: 2rem;
+        font-family: 'Outfit', sans-serif;
+    
+      width: 100%;
+        /* white-space: nowrap; */
+        padding-right: 1rem;
+        /* border-right: 4px solid #3e64ff; */
+        /* animation: typewriter 4s steps(40) infinite; */
+    }
+    .developer h2{
+        margin-left: 3rem;
+    }
+}
+

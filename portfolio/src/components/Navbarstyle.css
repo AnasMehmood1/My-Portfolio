@@ -7,7 +7,7 @@
   width: 100%;
   background-color: transparent;
   z-index: 10;
-  height: 10vh;
+  height: 8vh;
 }
 .header-bg{
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
@@ -25,11 +25,12 @@
 .nav-menu li{
     padding: 0 1rem;
     list-style: none;
- 
+    cursor: pointer;
+
    
 }
 .nav-menu a{
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
 }
@@ -39,6 +40,9 @@
 @media screen and (max-width: 840px) {
     .header{
         z-index: 10;
+    }
+    .header{
+     height: 10vh;
     }
     .logo{
         width: 35%;
@@ -67,12 +71,19 @@
     .nav-menu li{
         padding: 1rem 0;
     }
-    .nav-menu li a{
+    .nav-menu li Link{
         font-size: 2rem;
+        cursor: pointer;
     }
     .hamburger{
         display: initial;
         z-index: 30;
+    }
+}
+
+@media(max-width:950px){
+    .header{
+        height: 5vh;
     }
 }
 @media(max-width:450px){
@@ -81,6 +92,6 @@
         margin-left: -4rem;
     }
     .header{
-        height: 7vh;
+        height: 9vh;
     }
 }

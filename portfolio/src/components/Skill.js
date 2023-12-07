@@ -19,10 +19,11 @@ const Skill = () => {
             <img src="./images/8.jpg" alt="" />
           </div>
           <div className="images-row_2"> 
-          <img src="./images/3.jpg" alt="" />
-            <img src="./images/6.jpg" alt="" />
+          {/* <img src="./images/3.jpg" alt="" /> */}
+            {/* <img src="./images/6.jpg" alt="" /> */}
             <img src="./images/5.jpg" alt="" />
-            <img src="./images/4.jpg" alt="" /></div>
+            {/* <img src="./images/4.jpg" alt="" /> */}
+            </div>
       
        
         </div>

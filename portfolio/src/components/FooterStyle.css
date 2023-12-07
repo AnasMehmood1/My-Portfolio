@@ -1,18 +1,17 @@
 .footer_section{
     background-color: #f6f6f9ec;
     color: rgb(7, 5, 5);
-    height: 40vh;
-    /* padding: 4rem 0; */
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* box-shadow: 0 1px 6px 0 rgba(0,0,0,.1); */
-  
+    width: 100%;
 }
 .talk{
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+
 .main_section ul li {
    display: inline-block;
    margin-left: 2rem;
@@ -20,8 +19,15 @@
    font-size: 1.5rem;
 }
 .copyright{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
-@media(max-width:850px){
+@media(max-width:450px){
+    .footer_section{
+     
+        width: 110%;
+       
+       
+      
+    }
+}
 
-}

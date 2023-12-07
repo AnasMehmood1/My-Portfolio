@@ -15,10 +15,12 @@ const ProjectSec = () => {
   const filter = (category) => {
     if (category === 'All') {
       setCardData(Project);
+      setMenuList()
       return;
     }
     const update = Project.filter((curItem) => curItem.category === category);
     setCardData(update);
+  
   };
 
   useEffect(() => {
