@@ -72,6 +72,12 @@ const Project= [
         category:"Javascript",
         url:"https://github.com/AnasMehmood1/instyle"
        },
+    {
+        name:"Kfc",
+        image:"./project/kfc.jpg",
+        category:"Javascript",
+        url:"https://github.com/AnasMehmood1/KFC"
+       },
   
     {
         name:"Music player",

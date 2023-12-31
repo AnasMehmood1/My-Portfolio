@@ -40,7 +40,8 @@ text-align: center;
    outline: none;
    background-color: black;
    color: white;
-   padding: .6rem 1.2rem;
+   padding: .8rem 1.2rem;
+   font-size: 15px;
    border-radius: 7px;
 }
 .project_navbar{
