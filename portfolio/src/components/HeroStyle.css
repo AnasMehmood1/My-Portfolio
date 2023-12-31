@@ -57,11 +57,11 @@
 }
 
 .cv{
-    padding: 1rem 1.7rem;
+    padding: .8rem 1.2rem;
     background-color: black;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius:4px;
     outline: none;
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
@@ -70,6 +70,12 @@
 .cv button{
     border: none;
     background-color: transparent;
+    color: white;
+    margin-top: 2rem;
+}
+.cv:hover{
+    border: none;
+    background-color:#3e64ff;
     color: white;
     margin-top: 2rem;
 }
@@ -143,6 +149,12 @@
     }
     
 }
+@media(max-width:400px){
+    .cv{
+        margin-left: 3.5rem;
+    }
+}
+
 
 @media(max-width:300px){
     .hero .contant .developer h2{
@@ -162,6 +174,9 @@
     }
     .developer h2{
         margin-left: 3rem;
+    }
+    .cv{
+        margin-left: 2rem;
     }
 }
 
