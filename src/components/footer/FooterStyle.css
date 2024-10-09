@@ -1,0 +1,38 @@
+.footer_section{
+    /* background-color: #f6f6f9ec; */
+    color: rgb(7, 5, 5);
+    height: 15vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 100%;
+    margin-top: 4rem;
+}
+
+.main_section {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         align-items: center;
+
+}
+
+.main_section ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+.main_section ul li{
+    font-size: 1.5rem;
+}
+.copyright{
+    margin-top: .8rem;
+    font-family: 'Outfit', sans-serif;
+    color: gray;
+}
+
+

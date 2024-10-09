@@ -3,12 +3,12 @@ import "./Contact.css"
 const Contact = () => {
   return (
     <>
-     
-      <div className="contact-container" id='contact'>
-      <div className="contact-heading">
+ <div className="contact-heading">
             <span>Let's Contact</span>
-            <h1>Contact Us</h1>
+          
         </div>
+      <div className="contact-container" id='contact'>
+      
       {/* <form action="https://formspree.io/f/xbjvngze" method='post' className='form'>
         <input type="text" name='Name' placeholder='Name' autoComplete='off' required />
         <input type="email" name='Email' placeholder='Email' autoComplete='off' required />

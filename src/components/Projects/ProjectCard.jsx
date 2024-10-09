@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import "./Cardstyle.css"
+import "./Card.css"
 const ProjectCard = ({cardData}) => {
 
   return (

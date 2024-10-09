@@ -22,8 +22,8 @@ window.addEventListener("scroll" ,changecolor)
   return (
     <>
     <div className={color ? "header header-bg": "header"}>
-       
-            <img src="/logo.png" alt="" className='logo' />
+    <img src="/logo.png" alt="" className='logo' />
+          
         <ul className={click ?("nav-menu active"):("nav-menu")}>
             <li>
          <Link to="Home" spy={true} smooth={true} offset={0} duration={500}>Home</Link>

@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import ProjectCard from './ProjectCard';
-import './Cardstyle.css';
+import './Card.css';
 import Project from './ProjectApi';
 
 const unique = [...new Set(Project.map((curItem) => curItem.category)), 'All'];
