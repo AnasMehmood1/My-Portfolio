@@ -1,7 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import "./Card.css"
-const ProjectCard = ({cardData}) => {
+import Project from './ProjectApi';
+const ProjectCard = () => {
 
   return (
     <>
@@ -9,7 +10,7 @@ const ProjectCard = ({cardData}) => {
     <div className="main">
       <div className="project_container">
 
-        {cardData.map((curItem)=>{
+        {Project.map((curItem)=>{
           return(
             <div className="card_container" key={curItem.id}>
             <div className="card">

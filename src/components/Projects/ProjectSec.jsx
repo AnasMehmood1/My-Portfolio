@@ -1,31 +1,15 @@
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import ProjectCard from './ProjectCard';
 import './Card.css';
-import Project from './ProjectApi';
 
-const unique = [...new Set(Project.map((curItem) => curItem.category)), 'All'];
+
+
 
 const ProjectSec = () => {
-  const [cardData, setCardData] = useState([]);
-  const [menuList, setMenuList] = useState(unique);
-  const defaultCategory = unique[0]; // Set the default to the first category
 
 
-  const filter = (category) => {
-    if (category === 'All') {
-      setCardData(Project);
-      setMenuList()
-      return;
-    }
-    const update = Project.filter((curItem) => curItem.category === category);
-    setCardData(update);
-  
-  };
 
-  useEffect(() => {
-    filter(defaultCategory); // Apply the default category filter when the component mounts
-  }, [defaultCategory]);
 
   return (
     <>
@@ -35,16 +19,12 @@ const ProjectSec = () => {
             <span>Let's see my projects</span>
             <h1>What I Do</h1>
           </div>
-          <div className="button-group-item">
-          {menuList.map((curItem)=>{
-    return   <button className="buttonitem"onClick={()=>{filter(curItem)}}>{curItem}</button>
-})}
-          </div>
+         
          </div>
 
   
 
-      <ProjectCard cardData={cardData} />
+      <ProjectCard />
     </>
   );
 };
