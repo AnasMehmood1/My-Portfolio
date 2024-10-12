@@ -7,25 +7,16 @@ import './Card.css';
 
 
 const ProjectSec = () => {
-
-
-
-
   return (
-    <>
-      
-      <div className="project_navbar">
-          <div className="head"  id='Projects'>
-            <span>Let's see my projects</span>
-            <h1>What I Do</h1>
-          </div>
+    <div className='project-section'>
          
-         </div>
-
-  
+         <div className="project-heading">
+   <span>EXPLORE MY CREATIONS</span>
+   <h1>WHAT I BUILD</h1>
+</div>
 
       <ProjectCard />
-    </>
+    </div>
   );
 };
 

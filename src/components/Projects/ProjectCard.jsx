@@ -1,34 +1,39 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import "./Card.css"
+import React from 'react';
+import './Card.css';
 import Project from './ProjectApi';
+import { Link } from 'react-router-dom';
+
 const ProjectCard = () => {
 
   return (
     <>
-
-    <div className="main">
       <div className="project_container">
-
-        {Project.map((curItem)=>{
-          return(
-            <div className="card_container" key={curItem.id}>
-            <div className="card">
-              <img src={curItem.image} alt="" className='cardimage' />
-            </div>
-            <div className="cardtitle"><h4>{curItem.name}</h4>
-             <Link to={curItem.url}><button className="btn">View On Github</button></Link>
-            </div>
+        {Project.map((curItem) => {
+          return (
+            <div className="project" key={curItem.name}>
+               <div className='image'><img src={curItem.image} alt="" />
+               
+               <Link to="/google.com"> 
+                
+                 
+                <div className='link'>
+                <i className="fa-solid fa-arrow-right fa-rotate-by" style={{ '--fa-rotate-angle': '-50deg' }}></i></div>
             
-          </div>
-          )
+           </Link></div>
+             
+              <div className='line'> 
+                <span>{curItem.name}</span>
+              </div>
+              <h3>{curItem.name}</h3>
+              <p>{curItem.description}</p>
+              
+             
+            </div>
+          );
         })}
-       
-       
-      </div>
       </div>
     </>
-  )
+  );
 }
 
-export default ProjectCard
+export default ProjectCard;

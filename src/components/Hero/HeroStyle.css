@@ -1,7 +1,9 @@
-.container{
-    position: relative;
+.container {
+   height: 100vh;
+ 
 }
-.mask{
+
+.mask {
     opacity: .1;
     width: 50%;
     background: #3e64ff;
@@ -9,31 +11,75 @@
     z-index: 0;
     position: absolute;
 }
-.hero-container{
-    width: 100%;
-    height: 100vh;
+
+.hero-container {
+  width: 100%;
+  height: 90vh;
     display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+
 }
 
+.hero-detail {
+    text-align: center;
+   
+    width: 55%;
+ 
+}
+.hero-detail p{
+  font-size: 1.2rem;
+  
+}
 .hero-detail span{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.type{
+    width: 50%;
+    margin-left: 25rem;
+
+}
+.type span{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.span {
     color: #3e64ff;
     font-family: 'Outfit', sans-serif;
     font-weight: 900;
     letter-spacing: 2.5px;
 }
-.hero-detail h1{
+
+.hero-detail h1 {
     font-size: 4rem;
     line-height: 65px;
 }
+
+
+
 @media (max-width: 968px) {
-   
- 
-     .hero-detail h1{
+    .hero-detail h1 {
         font-size: 3rem;
         line-height: 45px;
     }
+    
+    .typed-text {
+        font-size: 1.5rem; /* Smaller size for mobile */
+    }
 }
-
+@media (max-width: 668px) {
+    .container {
+        height: 80vh;
+      
+     }
+     
+     .mask {
+      
+         height: 80vh;
+        
+     }
+    }

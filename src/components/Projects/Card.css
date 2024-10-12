@@ -1,164 +1,121 @@
-.project_container{
-    display: grid;
-    grid-template-columns: repeat(2, minmax(321px,280px));
-    justify-content:center;
-    align-items: center;
-    gap: 5rem;
-  padding-top: 2rem;
-  padding-bottom: 7rem;
+.project-section{
   width: 100%;
-}
-.card_container{
-    display: grid;
-    /* grid-template-columns: 1fr; */
-    align-items: center;
-    /* background-color: black; */
-    
+    background: rgb(230, 230, 230);
+   padding: 10rem 0px;
   
 }
-.btn:hover{
-    background-color: #3e64ff;
-    color: white;
+.project-heading{
+  /* width: 100%; */
+  margin-left: 10rem;
+  text-align: left;
+  margin-bottom: 3rem;
+
 }
-.card{
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
-    border-radius: 12px;
-    padding: 1rem 1rem;
+.project-heading h1{
+  font-size: 3rem;
 }
-.cardimage{
-    width: 350px;
-    height: 200px;
-    object-fit: cover;
- /* background-position-y: bottom; */
- 
+.project-heading span{
+  color: #3e64ff;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 900;
+  letter-spacing: 2.5px;
 }
-.cardtitle{
-text-align: center;
+.project_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
-.cardtitle h4{
-    font-size: 1.5rem;
-    margin: 10px;
+.image{
+  position: relative;
+  width: 100%;
 }
-.btn{
-   border: none;
-   outline: none;
-   background-color: black;
-   color: white;
-   padding: .8rem 1.2rem;
-   font-size: 15px;
-   border-radius: 7px;
+.link{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  bottom: -15%;
+  right: 5%;
+
 }
-.project_navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+
+
+
+
+.project {
+  width: 27%; /* Base width for larger screens */
+  /* border: 2px solid red; */
+  color: gray;
+  padding: 1.5rem;
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  height: 90vh;
+  
 }
-.button-group-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: #f0f0f0ea;
-    width: 30%;
-    padding: 0.6rem 14rem;
-    border-radius: 7px;
+.project:hover{
+  background-color: white;
 }
-.buttonitem{
-    padding: 6px 10px;
-    border: none;
-    outline: none;
-    white-space: nowrap;
-   background-color: lightgray;
-   color: black;
-    border-radius: 6px;
+
+.project img {
+  width: 100%;
+  height: 28vh;
+  object-fit: cover;
 }
-.buttonitem:hover,
-.buttonitem:focus{
-    background-color: black;
-    color: white;
+
+.project p {
+  color: gray;
+  font-size: 17px;
+  margin-top: 1.5rem;
 }
-.head span{
-    color: #3e64ff;
-    font-family: bold;
-    font-family: 'Outfit', sans-serif;
-    font-weight: 800;
-    letter-spacing: 1px;
+
+.line {
+  position: relative;
+  padding-left: 6rem;
+  padding-top: 1rem;
 }
-.head h1{
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+h3{
+  color: black;
+  margin-top: 1rem;
+  font-size: 1.6rem;
 }
-@media(max-width:850px){
-    .project_container{
-        display: grid;
-        grid-template-columns: repeat(2, minmax(150px,500px));
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-     
-       
-    }
+
+.line::after {
+  content: ' ';
+  background-color: lightgray;
+  width: 70px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 70%;
 }
-@media(max-width:750px){
-    .project_container{
-        display: grid;
-        grid-template-columns: repeat(1, minmax(150px,500px));
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-      margin: 0 1rem 0 0rem;
-       
-    }
-    .main{
-        padding-left: 2rem;
-        width: 100%;
-    }
-    .btn{
-        border: none;
-        outline: none;
-        background-color: black;
-        color: white;
-        padding: .4rem 1rem;
-        border-radius: 7px;
-     }
-}
-@media (max-width:400px){
-    .project_container{
-        display: grid;
-        grid-template-columns: repeat(1, minmax(150px,500px));
-        /* justify-content: space-between; */
-        justify-content: center;
-    
-        width: 100%;
-        align-items: center;
-        gap: 15px;
+
+/* Media query for screen sizes smaller than 1200px */
+@media (max-width: 1200px) {
+  .project {
+      width: 45%; /* Adjust width for medium screens */
+  }
+  .project-heading{
    
-       
-    }
-    .cardimage{
-        width: 300px;
-        height: 200px;
-        object-fit: cover;
-     background-position-y: bottom;
-     
-    }
-    .buttonitem{
-        flex-wrap: wrap;
-    }
-    .head h1{
-        font-size: 3rem;
-        margin-bottom: 2rem;
-        letter-spacing: 5px;
-        text-transform: uppercase;
-    }
-    .btn{
-        padding: .7rem 1.2rem;
-    }
-    .btn:hover{
-        background-color: #3e64ff;
-        color: white;
-    }
+      margin-left: 5rem;
+  
+  
+  }
+}
+
+/* Media query for screen sizes smaller than 768px */
+@media (max-width: 768px) {
+  .project {
+      width: 90%; /* Full width for smaller screens */
+  }
+  .project-heading{
+    margin-left: 10px;
+
+}
 }
