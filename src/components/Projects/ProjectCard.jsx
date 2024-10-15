@@ -16,8 +16,9 @@ const ProjectCard = () => {
                <Link to="/google.com"> 
                 
                  
-                <div className='link'>
-                <i className="fa-solid fa-arrow-right fa-rotate-by" style={{ '--fa-rotate-angle': '-50deg' }}></i></div>
+               <a href={curItem.url}></a>
+               <div className='link'>
+               <i className="fa-solid fa-arrow-right fa-rotate-by" style={{ '--fa-rotate-angle': '-50deg' }}></i></div>
             
            </Link></div>
              
@@ -26,8 +27,15 @@ const ProjectCard = () => {
               </div>
               <h3>{curItem.name}</h3>
               <p>{curItem.description}</p>
-              
-             
+              <div className="project-icons">
+  <a  target='_blank' href={curItem.git} aria-label="Github repository">
+    <i className="fa-brands fa-github"></i> Github
+  </a>
+  <a target='_blank' href={curItem.url} aria-label="View project">
+    <i className="fa-brands fa-dribbble"></i> View
+  </a>
+</div>
+
             </div>
           );
         })}

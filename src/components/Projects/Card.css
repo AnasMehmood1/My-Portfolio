@@ -51,12 +51,13 @@
 
 
 .project {
-  width: 27%; /* Base width for larger screens */
+  width: 25%; /* Base width for larger screens */
   /* border: 2px solid red; */
   color: gray;
   padding: 1.5rem;
   box-sizing: border-box; /* Ensures padding and borders are included in the width */
-  height: 90vh;
+  /* height: 95vh; */
+  padding-bottom: 5rem;
   
 }
 .project:hover{
@@ -72,7 +73,7 @@
 .project p {
   color: gray;
   font-size: 17px;
-  margin-top: 1.5rem;
+  padding: 2rem 0px;
 }
 
 .line {
@@ -95,7 +96,21 @@ h3{
   left: 0;
   top: 70%;
 }
+.project-icons{
+  display: flex;
+  gap: 1rem;
+ align-items: center;
+   margin-top: 2rem;
 
+  cursor: pointer;
+}
+.project-icons a i{
+  color: black;
+  padding-right: 5px;
+}
+.project-icons a {
+  color: black;
+}
 /* Media query for screen sizes smaller than 1200px */
 @media (max-width: 1200px) {
   .project {

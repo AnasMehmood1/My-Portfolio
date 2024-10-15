@@ -2,7 +2,8 @@ import React from 'react'
 import "./skill.css"
 const Skill = () => {
   return (
-    <div className='mainskill'>
+    <div className='mainskill' id='Skill'>
+
      <div className="main-container">
       <div className="skill-heading">
         <span>LET'S SEE MY SKILL</span>

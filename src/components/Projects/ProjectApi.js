@@ -1,41 +1,29 @@
 const Project= [
     {
-        name:"Hotel App",
-        image:"./react/3.png",
-        category:"React",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus eius odit delectus in. Illo accusantium iste ex, nihil facere cumque fugit minima! Cupiditate et asperiores architecto assumenda vitae repellendus aspernatur?",
-        title :"React App",
-        url:"https://github.com/AnasMehmood1/React-Hotel-App"
+        name:"noted",
+        image:"./project/noted.jpg",
+       
+        description: "I've developed a dynamic note-taking app using the MERN stack. It allows users to create, update, delete, and manage notes with ease, while ensuring data security through login functionality. This project showcases my ability to build interactive, full-stack applications with a clean and intuitive interface.",
+        title :"noted",
+        git:"https://github.com/AnasMehmood1/noted"
        },
        {
-        name:"Travel App",
-        image:"./react/2.png",
-        category:"React",
-        url:"https://github.com/AnasMehmood1/React-Travel-App"
+        name:"palettifyy",
+        image:"./project/color.png",
+        description:"Introducing Palettifyy, a color palette generator designed to make creating stunning color schemes effortless. With features like clicking on any color card to copy its code, pressing 'C' to copy the entire palette, and generating fresh palettes by simply hitting the spacebar, Palettifyy brings convenience and creativity together in a user-friendly interface.",
+       git:"https://github.com/AnasMehmood1/palettifyy",
+        url:"https://palettifyy.netlify.app/"
        },
+   
+  
+   
     {
-     name:"TodosList",
-     image:"./react/1.png",
-     category:"React",
-     url:"https://github.com/AnasMehmood1/TodoList"
-    },
-    {
-     name:"Portfolio",
-     image:"./react/4.png",
-     category:"React",
-     url:"https://github.com/AnasMehmood1/My-Portfolio"
-    },
-    {
-     name:"Instyle",
-     image:"./project/1.png",
-     category:"HTML CSS",
-     url:"https://github.com/AnasMehmood1/instyle"
-    },
-    {
-     name:"Netflix",
-     image:"./project/6.png",
-     category:"HTML CSS",
-     url:"https://github.com/AnasMehmood1/NETFLIX"
+     name:"unwind",
+     image:"./project/unwind.png",
+    
+     description:"Unwind is a sleek and user-friendly hotel booking app built with React. This frontend project includes essential pages such as a contact page, detailed room listings, and more. It provides a seamless user experience, showcasing modern design principles while allowing users to explore available rooms and reach out for inquiries. Whether you're looking to book a luxurious suite or a cozy stay, Unwind offers a smooth navigation experience for potential guests.",
+       git:"https://github.com/AnasMehmood1/unwind-",
+        url:"https://unwindd.netlify.app/"
     },
   
    

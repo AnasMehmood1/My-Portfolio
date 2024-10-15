@@ -24,7 +24,7 @@ const Hero = () => {
   // }, []);
 
   return (
-    <div className='container'>
+    <div className='container' id='Home'>
      
       <div className="mask"></div>
       <div className="hero-container">

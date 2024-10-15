@@ -26,16 +26,16 @@ window.addEventListener("scroll" ,changecolor)
           
         <ul className={click ?("nav-menu active"):("nav-menu")}>
             <li>
-         <Link to="/Home" spy={true} smooth={true} offset={0} duration={500}>Home</Link>
+         <Link to="Home" spy={true} smooth={true} offset={0} duration={500}>Home</Link>
             </li>
             <li>
-            <Link to="Skill" spy={true} smooth={true} offset={-30} duration={500}>Skills</Link>
+            <Link to="Skill" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link>
             </li>
             <li>
-            <Link to="Projects" spy={true} smooth={true} offset={-65} duration={500}>projects</Link>
+            <Link to="project" spy={true} smooth={true} offset={-35} duration={500}>Projects</Link>
             </li>
             <li>
-            <Link to="contact" spy={true} smooth={true} offset={-65} duration={500}>contact</Link>
+            <Link to="contact" spy={true} smooth={true} offset={-65} duration={500}>Contact</Link>
             </li>
            
         </ul>

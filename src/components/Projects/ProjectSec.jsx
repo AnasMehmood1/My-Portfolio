@@ -8,7 +8,7 @@ import './Card.css';
 
 const ProjectSec = () => {
   return (
-    <div className='project-section'>
+    <div className='project-section' id='project'>
          
          <div className="project-heading">
    <span>EXPLORE MY CREATIONS</span>

@@ -20,8 +20,7 @@
 .header-bg{
     transition: 0.5s;
 
-    background-color: rgba(255, 255, 255, 0.5); 
-    backdrop-filter: blur(10px); 
+    background-color: white;
 }
 .logo{
     width: 20%;
