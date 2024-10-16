@@ -28,10 +28,10 @@ const ProjectCard = () => {
               <h3>{curItem.name}</h3>
               <p>{curItem.description}</p>
               <div className="project-icons">
-  <a  target='_blank' href={curItem.git} aria-label="Github repository">
+  <a rel="noreferrer"  target='_blank' href={curItem.git} aria-label="Github repository">
     <i className="fa-brands fa-github"></i> Github
   </a>
-  <a target='_blank' href={curItem.url} aria-label="View project">
+  <a  rel="noreferrer" target='_blank' href={curItem.url} aria-label="View project">
     <i className="fa-brands fa-dribbble"></i> View
   </a>
 </div>
