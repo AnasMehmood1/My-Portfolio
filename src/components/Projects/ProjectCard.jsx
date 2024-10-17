@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 import Project from './ProjectApi';
-import { Link } from 'react-router-dom';
+
 
 const ProjectCard = () => {
 
@@ -11,16 +11,18 @@ const ProjectCard = () => {
         {Project.map((curItem) => {
           return (
             <div className="project" key={curItem.name}>
-               <div className='image'><img src={curItem.image} alt="" />
+               <div className='image'>
+                <img src={curItem.image} alt="" />
                
-               <Link to="/google.com"> 
-                
+               
                  
-               <a href={curItem.url}></a>
+               <a href={curItem.url}>
                <div className='link'>
-               <i className="fa-solid fa-arrow-right fa-rotate-by" style={{ '--fa-rotate-angle': '-50deg' }}></i></div>
-            
-           </Link></div>
+               <i className="fa-solid fa-arrow-right fa-rotate-by" style={{ '--fa-rotate-angle': '-50deg' }}>
+                </i></div>
+                </a>
+                </div>
+        
              
               <div className='line'> 
                 <span>{curItem.name}</span>

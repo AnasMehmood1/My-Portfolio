@@ -26,26 +26,20 @@
 .hero-detail {
     text-align: center;
    
-    width: 55%;
+    /* width: 55%; */
  
 }
 .hero-detail p{
   font-size: 1.2rem;
+  text-align: center;
   
 }
 .hero-detail span{
   font-size: 1.2rem;
   font-weight: bold;
 }
-.type{
-    width: 50%;
-    margin-left: 25rem;
 
-}
-.type span{
-    font-size: 1.3rem;
-    font-weight: bold;
-}
+
 
 .span {
     color: #3e64ff;
@@ -67,9 +61,7 @@
         line-height: 45px;
     }
     
-    .typed-text {
-        font-size: 1.5rem; /* Smaller size for mobile */
-    }
+    
 }
 @media (max-width: 668px) {
     .container {

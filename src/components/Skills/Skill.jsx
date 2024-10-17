@@ -1,32 +1,42 @@
-import React from 'react'
-import "./skill.css"
+import React from 'react';
+import "./skill.css";
+
 const Skill = () => {
+  const skills = [
+    { name: "HTML5", logo: "./images/html5.svg" },
+    { name: "CSS3", logo: "./images/css3.svg" },
+    { name: "Javascript", logo: "./images/js.svg" },
+    { name: "Bootstrap", logo: "./images/bootstrap.svg" },
+    { name: "Tailwind", logo: "./images/Tailwind.svg" },
+    { name: "ReactJS", logo: "./images/react.svg" },
+    { name: "NextJS", logo: "./images/nextjs.svg" },
+    { name: "Redux", logo: "./images/redux.svg" },
+    { name: "NodeJS", logo: "./images/Nodejs.png" },
+    { name: "ExpressJS", logo: "./images/express.svg" },
+      { name: "MongoDB", logo: "./images/MongoDB.png" },
+ 
+ 
+          { name: "Git/GitHub", logo: "./images/git.svg" }
+  ];
+
   return (
     <div className='mainskill' id='Skill'>
-
-     <div className="main-container">
-      <div className="skill-heading">
-        <span>LET'S SEE MY SKILL</span>
-        <h1>WHAT I LEARN</h1>
+      <div className="main-container">
+        <div className="skill-heading">
+          <span>LET'S SEE MY EXPERTISE</span>
+          <h1>WHAT I'VE GAINED</h1>
+        </div>
+        <div className="card-container">
+          {skills.map((skill, index) => (
+            <div className="card" key={index}>
+              <img src={skill.logo} alt={skill.name} />
+              <h3>{skill.name}</h3>
+            </div>
+          ))}
+        </div>
       </div>
-      <div className="skill-container">
-        <div className="skill html">HTML5</div>
-        <div className="skill css">CSS3</div>
-        <div className="skill tail">Tailwind</div>
-        <div className="skill boot">Bootstrap</div>
-        <div className="skill js">Javascript</div>
-        <div className="skill react">React.js</div>
-        <div className="skill redux">Redux.js</div>
-        <div className="skill">Next.js</div>
-        <div className="skill">Shadcn</div>
-        <div className="skill mongo">MongoDB</div>
-        <div className="skill node">Node.js</div>
-        <div className="skill">Express.js</div>
-        <div className="skill">Mongoose ORM</div>
-      </div>
-     </div>
     </div>
-  )
+  );
 }
 
-export default Skill
+export default Skill;

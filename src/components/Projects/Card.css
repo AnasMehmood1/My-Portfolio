@@ -8,11 +8,11 @@
   /* width: 100%; */
   margin-left: 10rem;
   text-align: left;
-  margin-bottom: 3rem;
+  
 
 }
 .project-heading h1{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .project-heading span{
   color: #3e64ff;
@@ -30,6 +30,7 @@
 .image{
   position: relative;
   width: 100%;
+
 }
 .link{
   position: absolute;
@@ -66,8 +67,9 @@
 
 .project img {
   width: 100%;
-  height: 28vh;
+  height: 27vh;
   object-fit: cover;
+
 }
 
 .project p {

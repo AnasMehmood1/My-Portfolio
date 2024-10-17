@@ -11,8 +11,8 @@ const ProjectSec = () => {
     <div className='project-section' id='project'>
          
          <div className="project-heading">
-   <span>EXPLORE MY CREATIONS</span>
-   <h1>WHAT I BUILD</h1>
+   <span>Discover My Craft</span>
+   <h1>What I've Designed & Developed</h1>
 </div>
 
       <ProjectCard />
