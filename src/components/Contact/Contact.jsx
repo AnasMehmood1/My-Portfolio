@@ -3,10 +3,12 @@ import "./Contact.css"
 const Contact = () => {
   return (
     <>
- <div className="contact-heading"id='contact'>
-            <span>Let's Contact</span>
-          
-        </div>
+  <div className="section">
+  <div className="contact-heading" id="contact">
+    <span>Let’s Collaborate</span>
+    <h1>Get In Touch</h1>
+</div>
+  </div>
       <div className="contact-container" id='contact'>
       
       {/* <form action="https://formspree.io/f/xbjvngze" method='post' className='form'>

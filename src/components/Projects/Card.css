@@ -133,6 +133,10 @@ h3{
   }
   .project-heading{
     margin-left: 10px;
+    padding-bottom: 2rem;
 
+}
+.project-heading h1{
+  font-size: 2rem;
 }
 }

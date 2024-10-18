@@ -11,9 +11,9 @@ const Skill = () => {
     { name: "ReactJS", logo: "./images/react.svg" },
     { name: "NextJS", logo: "./images/nextjs.svg" },
     { name: "Redux", logo: "./images/redux.svg" },
-    { name: "NodeJS", logo: "./images/Nodejs.png" },
+    { name: "NodeJS", logo: "./images/nodejs.svg" },
     { name: "ExpressJS", logo: "./images/express.svg" },
-      { name: "MongoDB", logo: "./images/MongoDB.png" },
+      { name: "MongoDB", logo: "./images/mongodb.svg" },
  
  
           { name: "Git/GitHub", logo: "./images/git.svg" }

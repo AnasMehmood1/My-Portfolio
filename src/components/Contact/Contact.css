@@ -1,13 +1,24 @@
 .contact-heading{
     margin-bottom: -1rem;
     margin-top: 5rem;
+    width: 75%;
+
   
 }
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .contact-heading span{
-    font-size: 2rem;
-    font-family: 'Outfit', sans-serif;
-    margin-left: 15rem;
-    font-weight: bold;
+    color: #3e64ff;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 900;
+  letter-spacing: 2.5px;
+}
+ .contact-heading h1{
+    font-size: 2.5rem;
 }
 
 .contact-container{
@@ -48,8 +59,8 @@
     padding: 1rem;
 }
 .contact-btn{
-    padding: .7rem 4rem;
-    font-size: 16px;
+    padding: .8rem 4rem;
+    font-size: 17px;
     background-color: black;
     color: white;
     font-family: 'Outfit', sans-serif;
@@ -61,9 +72,7 @@
     .form{
         width: 80%;
     }
-    .contact-heading span{
-        margin-left: 1rem;
-    }
+  
 }
 @media(max-width:650px){
     .form{
@@ -73,6 +82,7 @@
     .contact-heading{
         margin-bottom: 1rem;
         margin-top: 5rem;
+        width: 90%;
       
     }
 }
