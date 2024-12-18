@@ -25,6 +25,14 @@ const Project= [
        git:"https://github.com/AnasMehmood1/unwind-",
         url:"https://unwindd.netlify.app/"
     },
+    {
+     name:"Quillscape",
+     image:"./project/qillscape.png",
+    
+     description:"A modern and responsive blog application built using Next.js, Shadcn UI, Tailwind CSS, and Sanity as the backend. Explore clean design, rich content management, and seamless performance. Perfect for learning and showcasing dynamic blogs!",
+       git:"https://github.com/AnasMehmood1/quillscape",
+        url:"https://quillscape.vercel.app/"
+    },
   
    
    
