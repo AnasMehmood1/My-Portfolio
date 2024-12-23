@@ -32,7 +32,7 @@ const Hero = () => {
           <span className='span'>HY ! I AM</span>
           <h1>ANAS</h1>
           <h1>MEHMOOD</h1>
-          <p>I'm a Passionate <span>MERN STACK DEVELOPER</span></p>
+          <p>A Passionate <span>MERN STACK DEVELOPER</span></p>
           {/* Typed.js effect here */}
          
         </div>
