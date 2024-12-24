@@ -1,27 +1,11 @@
 
 
 import React from 'react';
-// import Typed from 'typed.js';
+
 import "./HeroStyle.css";
 
 const Hero = () => {
-  // const typedRef = useRef(null);  // Create a reference to attach typed.js
-
-  // useEffect(() => {
-  //   const typed = new Typed(typedRef.current, {
-  //     strings: ["I'm a Passionate MERN STACK DEVELOPER"],  // Add more phrases if needed
-     
-  //     typeSpeed: 70,
-  //           backSpeed: 70,
-  //           loop: true,
-  //           backDelay: 2500,
-     
-  //   });
-
-  //   return () => {
-  //     typed.destroy();  // Cleanup to avoid memory leaks
-  //   };
-  // }, []);
+  
 
   return (
     <div className='container' id='Home'>
@@ -33,15 +17,12 @@ const Hero = () => {
           <h1>ANAS</h1>
           <h1>MEHMOOD</h1>
           <p>A Passionate <span>MERN STACK DEVELOPER</span></p>
-          {/* Typed.js effect here */}
-         
-        </div>
-        {/* <div className='type'><span ref={typedRef} className="typed-text"></span></div> */}
+          
         
       </div>
       
     </div>
-  );
+  );</div>
 };
 
 export default Hero;
