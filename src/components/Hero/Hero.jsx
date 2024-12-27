@@ -16,13 +16,13 @@ const Hero = () => {
           <span className='span'>HY ! I AM</span>
           <h1>ANAS</h1>
           <h1>MEHMOOD</h1>
-          <p>A Passionate <span>MERN STACK DEVELOPER</span></p>
+          <p>A  Passionate<span>MERN STACK DEVELOPER</span></p>
           
         
       </div>
-      
+      </div>
     </div>
-  );</div>
+  );
 };
 
 export default Hero;
